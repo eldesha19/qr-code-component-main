@@ -1,0 +1,39 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+    font-family: 'Outfit', sans-serif;
+}
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 260px;
+    border-radius: 10px;
+}
+.parent img{
+    width: 100%;
+    border-radius: 5%;
+}
+.p-1{
+    font-weight: 700;
+    max-width: 190px;
+    margin: 20px auto;
+}
+.p-2{
+    margin: 20px auto;
+    max-width: 250px;
+    font-size: 15px;
+    opacity: .6;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
